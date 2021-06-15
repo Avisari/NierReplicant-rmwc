@@ -49,7 +49,7 @@ $(document).ready(function () {
 
                 GlobalMatMap = AddToGlobalMap(GlobalMatMap, v1.Name, MatMap);
                 td = BuildTd("");
-                td.attr('id', 'TotalMatsTD_' + k);
+                td.attr('class', 'MatsTD').attr('id', 'TotalMatsTD_' + k);
                 MatMap = new Map([...MatMap.entries()].sort());
                 MatMap.forEach(function (v, k) {
                     td.append(BuildDiv(k, v));
