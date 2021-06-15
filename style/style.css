@@ -96,3 +96,34 @@ body.dark {
         position: absolute;
         text-align: right;
     }
+
+.jumbotron {
+    position: relative;
+}
+
+#jumbotronContent a{
+    text-decoration: underline;
+}
+
+#JumbotronChk{
+    display: none;
+}
+    #JumbotronChk:checked + div {
+        height: 35px;
+        overflow: hidden;
+        padding: 0;
+    }
+    #JumbotronChk:checked + div div {
+        display: none;
+    }
+
+#JumbotronChkLabel {
+}
+    #JumbotronChkLabel:after {
+        position: absolute;
+        content: 'X';
+        right: 26px;
+        top: 28px;
+        cursor: pointer;
+        z-index: 3;
+    }
