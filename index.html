@@ -58,7 +58,7 @@
 
                     v2.Materials.sort((a, b) => a.Name.localeCompare(b.Name));
                     td2 = BuildTd("");
-                    td2.attr('class', 'MatsTD').attr('id', 'MatsTD_' + k + '_' + k2);
+                    td2.attr('class', 'MatsTD').attr('id', 'MatsTD_' + v1.Index + '_' + k2);
                     $.each(v2.Materials, function (k3, v3) {
                         td2.append(BuildDiv(v3.Name, v3.Amount));
                         if (!chk.is(':checked')) MatMap = AddToMap(MatMap, v3.Name, v3.Amount);
@@ -145,17 +145,16 @@
                         m = SubFromMap(m, v3.Name, v3.Amount);
                         m2 = SubFromMap(m2, v3.Name, v3.Amount);
                     });
+                    SetLocalStorageValue($(this).attr('id'), $(this).is(':checked'));
                 } else if (!$(this).is(':checked')) {
                     $.each(jsonData[k].Levels[k2].Materials, function (k3, v3) {
                         m = AddToMap(m, v3.Name, v3.Amount);
                         m2 = AddToMap(m2, v3.Name, v3.Amount);
                     });
+                    RemoveFromLocalStorage($(this).attr('id'), $(this).is(':checked'));
                 }
 
                 $('#MatsTD_' + k + '_' + k2).toggleClass('LevelDone');
-
-
-                SetLocalStorageValue($(this).attr('id'), $(this).is(':checked'));
 
                 $('#TotalMatsTD_' + k).html('');
                 m = new Map([...m.entries()].sort());
@@ -186,6 +185,9 @@
         }
         function GetFromLocalStorage(i) {
             return localStorage.getItem(i);
+        }
+        function RemoveFromLocalStorage(i) {
+            return localStorage.removeItem(i);
         }
     </script>
 </head>
