@@ -1,1638 +1,1874 @@
 {
-	"Weapons": [
-		{
-			"Name": "Nameless Blade",
-			"Type": "One-handed sword",
-
-			"Levels": [
-				{
-					"Level": 2,
-					"Materials": [
-						{
-							"Name": 44,
-							"Amount": 3
-						}
-					]
-				},
-				{
-					"Level": 3,
-					"Materials": [
-						{
-							"Name": 44,
-							"Amount": 2
-						},
-						{
-							"Name": 42,
-							"Amount": 10
-						},
-						{
-							"Name": 4,
-							"Amount": 3
-						}
-					]
-				},
-				{
-					"Level": 4,
-					"Materials": [
-						{
-							"Name": 44,
-							"Amount": 2
-						},
-						{
-							"Name": 17,
-							"Amount": 1
-						},
-						{
-							"Name": 40,
-							"Amount": 2
-						}
-					]
-				}
-			]
-		},
-		{
-			"Name": "Lily Leaf Sword",
-			"Type": "One-handed sword",
-
-			"Levels": [
-				{
-					"Level": 2,
-					"Materials": [
-						{
-							"Name": 44,
-							"Amount": 3
-						}
-					]
-				},
-				{
-					"Level": 3,
-					"Materials": [
-						{
-							"Name": 44,
-							"Amount": 2
-						},
-						{
-							"Name": 3,
-							"Amount": 7
-						},
-						{
-							"Name": 25,
-							"Amount": 1
-						}
-					]
-				},
-				{
-					"Level": 4,
-					"Materials": [
-						{
-							"Name": 44,
-							"Amount": 2
-						},
-						{
-							"Name": 21,
-							"Amount": 2
-						},
-						{
-							"Name": 34,
-							"Amount": 1
-						}
-					]
-				}
-			]
-		},
-		{
-			"Name": "Nirvana Dagger",
-			"Type": "One-handed sword",
-
-			"Levels": [
-				{
-					"Level": 2,
-					"Materials": [
-						{
-							"Name": 44,
-							"Amount": 1
-						},
-						{
-							"Name": 37,
-							"Amount": 2
-						}
-					]
-				},
-				{
-					"Level": 3,
-					"Materials": [
-						{
-							"Name": 44,
-							"Amount": 1
-						},
-						{
-							"Name": 4,
-							"Amount": 3
-						},
-						{
-							"Name": 23,
-							"Amount": 2
-						}
-					]
-				},
-				{
-					"Level": 4,
-					"Materials": [
-						{
-							"Name": 44,
-							"Amount": 1
-						},
-						{
-							"Name": 31,
-							"Amount": 3
-						},
-						{
-							"Name": 34,
-							"Amount": 1
-						}
-					]
-				}
-			]
-		},
-		{
-			"Name": "Moonrise",
-			"Type": "One-handed sword",
-
-			"Levels": [
-				{
-					"Level": 2,
-					"Materials": [
-						{
-							"Name": 44,
-							"Amount": 1
-						},
-						{
-							"Name": 10,
-							"Amount": 1
-						}
-					]
-				},
-				{
-					"Level": 3,
-					"Materials": [
-						{
-							"Name": 44,
-							"Amount": 1
-						},
-						{
-							"Name": 7,
-							"Amount": 1
-						},
-						{
-							"Name": 10,
-							"Amount": 1
-						}
-					]
-				},
-				{
-					"Level": 4,
-					"Materials": [
-						{
-							"Name": 44,
-							"Amount": 1
-						},
-						{
-							"Name": 37,
-							"Amount": 2
-						},
-						{
-							"Name": 34,
-							"Amount": 1
-						}
-					]
-				}
-			]
-		},
-		{
-			"Name": "Rebirth",
-			"Type": "One-handed sword",
-
-			"Levels": [
-				{
-					"Level": 2,
-					"Materials": [
-						{
-							"Name": 24,
-							"Amount": 10
-						},
-						{
-							"Name": 45,
-							"Amount": 1
-						}
-					]
-				},
-				{
-					"Level": 3,
-					"Materials": [
-						{
-							"Name": 24,
-							"Amount": 10
-						},
-						{
-							"Name": 25,
-							"Amount": 1
-						},
-						{
-							"Name": 5,
-							"Amount": 1
-						}
-					]
-				},
-				{
-					"Level": 4,
-					"Materials": [
-						{
-							"Name": 24,
-							"Amount": 10
-						},
-						{
-							"Name": 11,
-							"Amount": 3
-						},
-						{
-							"Name": 1,
-							"Amount": 1
-						}
-					]
-				}
-			]
-		},
-		{
-			"Name": "Earth Wyrm's Claw",
-			"Type": "One-handed sword",
-
-			"Levels": [
-				{
-					"Level": 2,
-					"Materials": [
-						{
-							"Name": 24,
-							"Amount": 8
-						},
-						{
-							"Name": 38,
-							"Amount": 10
-						}
-					]
-				},
-				{
-					"Level": 3,
-					"Materials": [
-						{
-							"Name": 24,
-							"Amount": 8
-						},
-						{
-							"Name": 12,
-							"Amount": 3
-						},
-						{
-							"Name": 9,
-							"Amount": 2
-						}
-					]
-				},
-				{
-					"Level": 4,
-					"Materials": [
-						{
-							"Name": 24,
-							"Amount": 10
-						},
-						{
-							"Name": 12,
-							"Amount": 15
-						},
-						{
-							"Name": 1,
-							"Amount": 1
-						}
-					]
-				}
-			]
-		},
-		{
-			"Name": "Blade of Treachery",
-			"Type": "One-handed sword",
-
-			"Levels": [
-				{
-					"Level": 2,
-					"Materials": [
-						{
-							"Name": 14,
-							"Amount": 10
-						},
-						{
-							"Name": 40,
-							"Amount": 1
-						}
-					]
-				},
-				{
-					"Level": 3,
-					"Materials": [
-						{
-							"Name": 14,
-							"Amount": 15
-						},
-						{
-							"Name": 26,
-							"Amount": 2
-						},
-						{
-							"Name": 35,
-							"Amount": 1
-						}
-					]
-				},
-				{
-					"Level": 4,
-					"Materials": [
-						{
-							"Name": 14,
-							"Amount": 20
-						},
-						{
-							"Name": 35,
-							"Amount": 1
-						},
-						{
-							"Name": 34,
-							"Amount": 1
-						}
-					]
-				}
-			]
-		},
-		{
-			"Name": "Beastbain",
-			"Type": "One-handed sword",
-
-			"Levels": [
-				{
-					"Level": 2,
-					"Materials": [
-						{
-							"Name": 24,
-							"Amount": 12
-						},
-						{
-							"Name": 13,
-							"Amount": 1
-						}
-					]
-				},
-				{
-					"Level": 3,
-					"Materials": [
-						{
-							"Name": 24,
-							"Amount": 20
-						},
-						{
-							"Name": 13,
-							"Amount": 1
-						},
-						{
-							"Name": 26,
-							"Amount": 1
-						}
-					]
-				},
-				{
-					"Level": 4,
-					"Materials": [
-						{
-							"Name": 24,
-							"Amount": 15
-						},
-						{
-							"Name": 34,
-							"Amount": 2
-						},
-						{
-							"Name": 15,
-							"Amount": 1
-						}
-					]
-				}
-			]
-		},
-		{
-			"Name": "Faith",
-			"Type": "One-handed sword",
-
-			"Levels": [
-				{
-					"Level": 2,
-					"Materials": [
-						{
-							"Name": 39,
-							"Amount": 3
-						},
-						{
-							"Name": 3,
-							"Amount": 30
-						}
-					]
-				},
-				{
-					"Level": 3,
-					"Materials": [
-						{
-							"Name": 39,
-							"Amount": 5
-						},
-						{
-							"Name": 19,
-							"Amount": 1
-						},
-						{
-							"Name": 32,
-							"Amount": 1
-						}
-					]
-				},
-				{
-					"Level": 4,
-					"Materials": [
-						{
-							"Name": 39,
-							"Amount": 4
-						},
-						{
-							"Name": 30,
-							"Amount": 1
-						},
-						{
-							"Name": 44,
-							"Amount": 4
-						}
-					]
-				}
-			]
-		},
-		{
-			"Name": "Ancient Overlord",
-			"Type": "One-handed sword",
-
-			"Levels": [
-				{
-					"Level": 2,
-					"Materials": [
-						{
-							"Name": 39,
-							"Amount": 4
-						},
-						{
-							"Name": 8,
-							"Amount": 10
-						}
-					]
-				},
-				{
-					"Level": 3,
-					"Materials": [
-						{
-							"Name": 39,
-							"Amount": 6
-						},
-						{
-							"Name": 11,
-							"Amount": 3
-						},
-						{
-							"Name": 15,
-							"Amount": 2
-						}
-					]
-				},
-				{
-					"Level": 4,
-					"Materials": [
-						{
-							"Name": 39,
-							"Amount": 5
-						},
-						{
-							"Name": 30,
-							"Amount": 1
-						},
-						{
-							"Name": 26,
-							"Amount": 2
-						}
-					]
-				}
-			]
-		},
-		{
-			"Name": "Phoenix Dageger",
-			"Type": "One-handed sword",
-
-			"Levels": [
-				{
-					"Level": 2,
-					"Materials": [
-						{
-							"Name": 39,
-							"Amount": 6
-						},
-						{
-							"Name": 22,
-							"Amount": 2
-						}
-					]
-				},
-				{
-					"Level": 3,
-					"Materials": [
-						{
-							"Name": 39,
-							"Amount": 6
-						},
-						{
-							"Name": 18,
-							"Amount": 1
-						},
-						{
-							"Name": 6,
-							"Amount": 2
-						}
-					]
-				},
-				{
-					"Level": 4,
-					"Materials": [
-						{
-							"Name": 39,
-							"Amount": 6
-						},
-						{
-							"Name": 2,
-							"Amount": 5
-						},
-						{
-							"Name": 1,
-							"Amount": 2
-						}
-					]
-				}
-			]
-		},
-		{
-			"Name": "Labyrinth's whisper",
-			"Type": "One-handed sword",
-
-			"Levels": [
-				{
-					"Level": 2,
-					"Materials": [
-						{
-							"Name": 20,
-							"Amount": 1
-						}
-					]
-				},
-				{
-					"Level": 3,
-					"Materials": [
-						{
-							"Name": 20,
-							"Amount": 2
-						}
-					]
-				},
-				{
-					"Level": 4,
-					"Materials": [
-						{
-							"Name": 20,
-							"Amount": 3
-						}
-					]
-				}
-			]
-		},
-		{
-			"Name": "Iron Pipe",
-			"Type": "One-handed sword",
-
-			"Levels": [
-				{
-					"Level": 2,
-					"Materials": [
-						{
-							"Name": 17,
-							"Amount": 5
-						},
-						{
-							"Name": 4,
-							"Amount": 8
-						}
-					]
-				},
-				{
-					"Level": 3,
-					"Materials": [
-						{
-							"Name": 17,
-							"Amount": 8
-						},
-						{
-							"Name": 4,
-							"Amount": 15
-						},
-						{
-							"Name": 36,
-							"Amount": 10
-						}
-					]
-				},
-				{
-					"Level": 4,
-					"Materials": [
-						{
-							"Name": 17,
-							"Amount": 6
-						},
-						{
-							"Name": 4,
-							"Amount": 20
-						},
-						{
-							"Name": 35,
-							"Amount": 5
-						}
-					]
-				}
-			]
-		},
-		{
-			"Name": "Fool's Embrace (DLC)",
-			"Type": "One-handed sword",
-
-			"Levels": [
-				{
-					"Level": 2,
-					"Materials": [
-						{
-							"Name": 16,
-							"Amount": 1
-						}
-					]
-				},
-				{
-					"Level": 3,
-					"Materials": [
-						{
-							"Name": 16,
-							"Amount": 1
-						}
-					]
-				},
-				{
-					"Level": 4,
-					"Materials": [
-						{
-							"Name": 16,
-							"Amount": 1
-						}
-					]
-				}
-			]
-		},
-		{
-			"Name": "Kusanagi",
-			"Type": "Two-handed sword",
-
-			"Levels": [
-				{
-					"Level": 2,
-					"Materials": [
-						{
-							"Name": 24,
-							"Amount": 10
-						}
-					]
-				},
-				{
-					"Level": 3,
-					"Materials": [
-						{
-							"Name": 24,
-							"Amount": 18
-						},
-						{
-							"Name": 5,
-							"Amount": 4
-						},
-						{
-							"Name": 21,
-							"Amount": 1
-						}
-					]
-				},
-				{
-					"Level": 4,
-					"Materials": [
-						{
-							"Name": 24,
-							"Amount": 20
-						},
-						{
-							"Name": 6,
-							"Amount": 1
-						},
-						{
-							"Name": 30,
-							"Amount": 1
-						}
-					]
-				}
-			]
-		},
-		{
-			"Name": "Axe of Beheading",
-			"Type": "Two-handed sword",
-
-			"Levels": [
-				{
-					"Level": 2,
-					"Materials": [
-						{
-							"Name": 14,
-							"Amount": 10
-						}
-					]
-				},
-				{
-					"Level": 3,
-					"Materials": [
-						{
-							"Name": 14,
-							"Amount": 15
-						},
-						{
-							"Name": 37,
-							"Amount": 5
-						},
-						{
-							"Name": 43,
-							"Amount": 1
-						}
-					]
-				},
-				{
-					"Level": 4,
-					"Materials": [
-						{
-							"Name": 14,
-							"Amount": 18
-						},
-						{
-							"Name": 41,
-							"Amount": 2
-						},
-						{
-							"Name": 30,
-							"Amount": 1
-						}
-					]
-				}
-			]
-		},
-		{
-			"Name": "Fang of the Twins",
-			"Type": "Two-handed sword",
-
-			"Levels": [
-				{
-					"Level": 2,
-					"Materials": [
-						{
-							"Name": 39,
-							"Amount": 3
-						},
-						{
-							"Name": 19,
-							"Amount": 1
-						}
-					]
-				},
-				{
-					"Level": 3,
-					"Materials": [
-						{
-							"Name": 39,
-							"Amount": 5
-						},
-						{
-							"Name": 11,
-							"Amount": 2
-						},
-						{
-							"Name": 41,
-							"Amount": 1
-						}
-					]
-				},
-				{
-					"Level": 4,
-					"Materials": [
-						{
-							"Name": 14,
-							"Amount": 18
-						},
-						{
-							"Name": 41,
-							"Amount": 2
-						},
-						{
-							"Name": 29,
-							"Amount": 1
-						}
-					]
-				}
-			]
-		},
-		{
-			"Name": "Vile axe",
-			"Type": "Two-handed sword",
-
-			"Levels": [
-				{
-					"Level": 2,
-					"Materials": [
-						{
-							"Name": 39,
-							"Amount": 4
-						},
-						{
-							"Name": 40,
-							"Amount": 1
-						}
-					]
-				},
-				{
-					"Level": 3,
-					"Materials": [
-						{
-							"Name": 39,
-							"Amount": 8
-						},
-						{
-							"Name": 7,
-							"Amount": 2
-						},
-						{
-							"Name": 45,
-							"Amount": 1
-						}
-					]
-				},
-				{
-					"Level": 4,
-					"Materials": [
-						{
-							"Name": 39,
-							"Amount": 12
-						},
-						{
-							"Name": 10,
-							"Amount": 2
-						},
-						{
-							"Name": 1,
-							"Amount": 1
-						}
-					]
-				}
-			]
-		},
-		{
-			"Name": "Beastlord",
-			"Type": "Two-handed sword",
-
-			"Levels": [
-				{
-					"Level": 2,
-					"Materials": [
-						{
-							"Name": 23,
-							"Amount": 1
-						},
-						{
-							"Name": 13,
-							"Amount": 1
-						}
-					]
-				},
-				{
-					"Level": 3,
-					"Materials": [
-						{
-							"Name": 23,
-							"Amount": 1
-						},
-						{
-							"Name": 13,
-							"Amount": 1
-						},
-						{
-							"Name": 26,
-							"Amount": 1
-						}
-					]
-				},
-				{
-					"Level": 4,
-					"Materials": [
-						{
-							"Name": 23,
-							"Amount": 3
-						},
-						{
-							"Name": 1,
-							"Amount": 1
-						},
-						{
-							"Name": 40,
-							"Amount": 2
-						}
-					]
-				}
-			]
-		},
-		{
-			"Name": "Iron Will",
-			"Type": "Two-handed sword",
-
-			"Levels": [
-				{
-					"Level": 2,
-					"Materials": [
-						{
-							"Name": 27,
-							"Amount": 1
-						}
-					]
-				},
-				{
-					"Level": 3,
-					"Materials": [
-						{
-							"Name": 27,
-							"Amount": 2
-						},
-						{
-							"Name": 35,
-							"Amount": 2
-						},
-						{
-							"Name": 17,
-							"Amount": 1
-						}
-					]
-				},
-				{
-					"Level": 4,
-					"Materials": [
-						{
-							"Name": 27,
-							"Amount": 3
-						},
-						{
-							"Name": 34,
-							"Amount": 1
-						},
-						{
-							"Name": 19,
-							"Amount": 2
-						}
-					]
-				}
-			]
-		},
-		{
-			"Name": "Phoenix Sword",
-			"Type": "Two-handed sword",
-
-			"Levels": [
-				{
-					"Level": 2,
-					"Materials": [
-						{
-							"Name": 23,
-							"Amount": 2
-						},
-						{
-							"Name": 22,
-							"Amount": 2
-						}
-					]
-				},
-				{
-					"Level": 3,
-					"Materials": [
-						{
-							"Name": 23,
-							"Amount": 3
-						},
-						{
-							"Name": 18,
-							"Amount": 2
-						},
-						{
-							"Name": 13,
-							"Amount": 1
-						}
-					]
-				},
-				{
-					"Level": 4,
-					"Materials": [
-						{
-							"Name": 23,
-							"Amount": 4
-						},
-						{
-							"Name": 2,
-							"Amount": 5
-						},
-						{
-							"Name": 30,
-							"Amount": 1
-						}
-					]
-				}
-			]
-		},
-		{
-			"Name": "Labyrinth's Song",
-			"Type": "Two-handed sword",
-
-			"Levels": [
-				{
-					"Level": 2,
-					"Materials": [
-						{
-							"Name": 20,
-							"Amount": 1
-						}
-					]
-				},
-				{
-					"Level": 3,
-					"Materials": [
-						{
-							"Name": 20,
-							"Amount": 2
-						}
-					]
-				},
-				{
-					"Level": 4,
-					"Materials": [
-						{
-							"Name": 20,
-							"Amount": 3
-						}
-					]
-				}
-			]
-		},
-		{
-			"Name": "Fool's Lament (DLC)",
-			"Type": "Two-handed sword",
-
-			"Levels": [
-				{
-					"Level": 2,
-					"Materials": [
-						{
-							"Name": 16,
-							"Amount": 1
-						}
-					]
-				},
-				{
-					"Level": 3,
-					"Materials": [
-						{
-							"Name": 16,
-							"Amount": 1
-						}
-					]
-				},
-				{
-					"Level": 4,
-					"Materials": [
-						{
-							"Name": 16,
-							"Amount": 1
-						}
-					]
-				}
-			]
-		},
-		{
-			"Name": "Transience",
-			"Type": "Spear",
-
-			"Levels": [
-				{
-					"Level": 2,
-					"Materials": [
-						{
-							"Name": 24,
-							"Amount": 2
-						}
-					]
-				},
-				{
-					"Level": 3,
-					"Materials": [
-						{
-							"Name": 24,
-							"Amount": 2
-						},
-						{
-							"Name": 45,
-							"Amount": 3
-						},
-						{
-							"Name": 28,
-							"Amount": 1
-						}
-					]
-				},
-				{
-					"Level": 4,
-					"Materials": [
-						{
-							"Name": 24,
-							"Amount": 4
-						},
-						{
-							"Name": 15,
-							"Amount": 2
-						},
-						{
-							"Name": 34,
-							"Amount": 1
-						}
-					]
-				}
-			]
-		},
-		{
-			"Name": "Spear of the Usurper",
-			"Type": "Spear",
-
-			"Levels": [
-				{
-					"Level": 2,
-					"Materials": [
-						{
-							"Name": 24,
-							"Amount": 1
-						}
-					]
-				},
-				{
-					"Level": 3,
-					"Materials": [
-						{
-							"Name": 24,
-							"Amount": 2
-						},
-						{
-							"Name": 25,
-							"Amount": 2
-						},
-						{
-							"Name": 43,
-							"Amount": 1
-						}
-					]
-				},
-				{
-					"Level": 4,
-					"Materials": [
-						{
-							"Name": 24,
-							"Amount": 5
-						},
-						{
-							"Name": 7,
-							"Amount": 2
-						},
-						{
-							"Name": 34,
-							"Amount": 1
-						}
-					]
-				}
-			]
-		},
-		{
-			"Name": "The Devil Queen",
-			"Type": "Spear",
-
-			"Levels": [
-				{
-					"Level": 2,
-					"Materials": [
-						{
-							"Name": 24,
-							"Amount": 5
-						},
-						{
-							"Name": 15,
-							"Amount": 3
-						}
-					]
-				},
-				{
-					"Level": 3,
-					"Materials": [
-						{
-							"Name": 24,
-							"Amount": 10
-						},
-						{
-							"Name": 28,
-							"Amount": 2
-						},
-						{
-							"Name": 8,
-							"Amount": 1
-						}
-					]
-				},
-				{
-					"Level": 4,
-					"Materials": [
-						{
-							"Name": 24,
-							"Amount": 13
-						},
-						{
-							"Name": 28,
-							"Amount": 1
-						},
-						{
-							"Name": 30,
-							"Amount": 1
-						}
-					]
-				}
-			]
-		},
-		{
-			"Name": "Sunrise",
-			"Type": "Spear",
-
-			"Levels": [
-				{
-					"Level": 2,
-					"Materials": [
-						{
-							"Name": 39,
-							"Amount": 1
-						},
-						{
-							"Name": 25,
-							"Amount": 2
-						}
-					]
-				},
-				{
-					"Level": 3,
-					"Materials": [
-						{
-							"Name": 39,
-							"Amount": 2
-						},
-						{
-							"Name": 37,
-							"Amount": 2
-						},
-						{
-							"Name": 21,
-							"Amount": 1
-						}
-					]
-				},
-				{
-					"Level": 4,
-					"Materials": [
-						{
-							"Name": 39,
-							"Amount": 3
-						},
-						{
-							"Name": 43,
-							"Amount": 1
-						},
-						{
-							"Name": 34,
-							"Amount": 1
-						}
-					]
-				}
-			]
-		},
-		{
-			"Name": "Beastcurse",
-			"Type": "Spear",
-
-			"Levels": [
-				{
-					"Level": 2,
-					"Materials": [
-						{
-							"Name": 39,
-							"Amount": 1
-						},
-						{
-							"Name": 13,
-							"Amount": 1
-						}
-					]
-				},
-				{
-					"Level": 3,
-					"Materials": [
-						{
-							"Name": 39,
-							"Amount": 2
-						},
-						{
-							"Name": 13,
-							"Amount": 1
-						},
-						{
-							"Name": 26,
-							"Amount": 1
-						}
-					]
-				},
-				{
-					"Level": 4,
-					"Materials": [
-						{
-							"Name": 39,
-							"Amount": 3
-						},
-						{
-							"Name": 30,
-							"Amount": 1
-						},
-						{
-							"Name": 19,
-							"Amount": 1
-						}
-					]
-				}
-			]
-		},
-		{
-			"Name": "Captain's Holy Spear",
-			"Type": "Spear",
-
-			"Levels": [
-				{
-					"Level": 2,
-					"Materials": [
-						{
-							"Name": 39,
-							"Amount": 2
-						},
-						{
-							"Name": 11,
-							"Amount": 2
-						}
-					]
-				},
-				{
-					"Level": 3,
-					"Materials": [
-						{
-							"Name": 39,
-							"Amount": 4
-						},
-						{
-							"Name": 31,
-							"Amount": 3
-						},
-						{
-							"Name": 6,
-							"Amount": 1
-						}
-					]
-				},
-				{
-					"Level": 4,
-					"Materials": [
-						{
-							"Name": 39,
-							"Amount": 4
-						},
-						{
-							"Name": 30,
-							"Amount": 1
-						},
-						{
-							"Name": 13,
-							"Amount": 1
-						}
-					]
-				}
-			]
-		},
-		{
-			"Name": "Dragoon Lance",
-			"Type": "Spear",
-
-			"Levels": [
-				{
-					"Level": 2,
-					"Materials": [
-						{
-							"Name": 39,
-							"Amount": 3
-						},
-						{
-							"Name": 34,
-							"Amount": 1
-						}
-					]
-				},
-				{
-					"Level": 3,
-					"Materials": [
-						{
-							"Name": 39,
-							"Amount": 4
-						},
-						{
-							"Name": 34,
-							"Amount": 3
-						},
-						{
-							"Name": 33,
-							"Amount": 1
-						}
-					]
-				},
-				{
-					"Level": 4,
-					"Materials": [
-						{
-							"Name": 39,
-							"Amount": 5
-						},
-						{
-							"Name": 29,
-							"Amount": 3
-						},
-						{
-							"Name": 40,
-							"Amount": 3
-						}
-					]
-				}
-			]
-		},
-		{
-			"Name": "Phoenix Spear",
-			"Type": "Spear",
-
-			"Levels": [
-				{
-					"Level": 2,
-					"Materials": [
-						{
-							"Name": 23,
-							"Amount": 1
-						},
-						{
-							"Name": 22,
-							"Amount": 2
-						}
-					]
-				},
-				{
-					"Level": 3,
-					"Materials": [
-						{
-							"Name": 23,
-							"Amount": 2
-						},
-						{
-							"Name": 18,
-							"Amount": 1
-						},
-						{
-							"Name": 11,
-							"Amount": 1
-						}
-					]
-				},
-				{
-					"Level": 4,
-					"Materials": [
-						{
-							"Name": 23,
-							"Amount": 3
-						},
-						{
-							"Name": 2,
-							"Amount": 5
-						},
-						{
-							"Name": 30,
-							"Amount": 1
-						}
-					]
-				}
-			]
-		},
-		{
-			"Name": "Labyrinth's Shout",
-			"Type": "Spear",
-
-			"Levels": [
-				{
-					"Level": 2,
-					"Materials": [
-						{
-							"Name": 20,
-							"Amount": 1
-						}
-					]
-				},
-				{
-					"Level": 3,
-					"Materials": [
-						{
-							"Name": 20,
-							"Amount": 2
-						}
-					]
-				},
-				{
-					"Level": 4,
-					"Materials": [
-						{
-							"Name": 20,
-							"Amount": 3
-						}
-					]
-				}
-			]
-		},
-		{
-			"Name": "Fool's Accord (DLC)",
-			"Type": "Spear",
-
-			"Levels": [
-				{
-					"Level": 2,
-					"Materials": [
-						{
-							"Name": 16,
-							"Amount": 1
-						}
-					]
-				},
-				{
-					"Level": 3,
-					"Materials": [
-						{
-							"Name": 16,
-							"Amount": 1
-						}
-					]
-				},
-				{
-					"Level": 4,
-					"Materials": [
-						{
-							"Name": 16,
-							"Amount": 1
-						}
-					]
-				}
-			]
-		}
-	]
+  "Weapons": [
+    {
+      "Name": "Nameless Blade",
+      "Type": "One-handed sword",
+      "Levels": [
+        {
+          "Level": 2,
+          "Materials": [
+            {
+              "Name": 44,
+              "Amount": 3
+            }
+          ]
+        },
+        {
+          "Level": 3,
+          "Materials": [
+            {
+              "Name": 44,
+              "Amount": 2
+            },
+            {
+              "Name": 42,
+              "Amount": 10
+            },
+            {
+              "Name": 4,
+              "Amount": 3
+            }
+          ]
+        },
+        {
+          "Level": 4,
+          "Materials": [
+            {
+              "Name": 44,
+              "Amount": 2
+            },
+            {
+              "Name": 17,
+              "Amount": 1
+            },
+            {
+              "Name": 40,
+              "Amount": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Lily Leaf Sword",
+      "Type": "One-handed sword",
+      "Levels": [
+        {
+          "Level": 2,
+          "Materials": [
+            {
+              "Name": 44,
+              "Amount": 3
+            }
+          ]
+        },
+        {
+          "Level": 3,
+          "Materials": [
+            {
+              "Name": 44,
+              "Amount": 2
+            },
+            {
+              "Name": 3,
+              "Amount": 7
+            },
+            {
+              "Name": 25,
+              "Amount": 1
+            }
+          ]
+        },
+        {
+          "Level": 4,
+          "Materials": [
+            {
+              "Name": 44,
+              "Amount": 2
+            },
+            {
+              "Name": 21,
+              "Amount": 2
+            },
+            {
+              "Name": 34,
+              "Amount": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Nirvana Dagger",
+      "Type": "One-handed sword",
+      "Levels": [
+        {
+          "Level": 2,
+          "Materials": [
+            {
+              "Name": 44,
+              "Amount": 1
+            },
+            {
+              "Name": 37,
+              "Amount": 2
+            }
+          ]
+        },
+        {
+          "Level": 3,
+          "Materials": [
+            {
+              "Name": 44,
+              "Amount": 1
+            },
+            {
+              "Name": 4,
+              "Amount": 3
+            },
+            {
+              "Name": 23,
+              "Amount": 2
+            }
+          ]
+        },
+        {
+          "Level": 4,
+          "Materials": [
+            {
+              "Name": 44,
+              "Amount": 1
+            },
+            {
+              "Name": 31,
+              "Amount": 3
+            },
+            {
+              "Name": 34,
+              "Amount": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Moonrise",
+      "Type": "One-handed sword",
+      "Levels": [
+        {
+          "Level": 2,
+          "Materials": [
+            {
+              "Name": 44,
+              "Amount": 1
+            },
+            {
+              "Name": 10,
+              "Amount": 1
+            }
+          ]
+        },
+        {
+          "Level": 3,
+          "Materials": [
+            {
+              "Name": 44,
+              "Amount": 1
+            },
+            {
+              "Name": 7,
+              "Amount": 1
+            },
+            {
+              "Name": 10,
+              "Amount": 1
+            }
+          ]
+        },
+        {
+          "Level": 4,
+          "Materials": [
+            {
+              "Name": 44,
+              "Amount": 1
+            },
+            {
+              "Name": 37,
+              "Amount": 2
+            },
+            {
+              "Name": 34,
+              "Amount": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Rebirth",
+      "Type": "One-handed sword",
+      "Levels": [
+        {
+          "Level": 2,
+          "Materials": [
+            {
+              "Name": 24,
+              "Amount": 10
+            },
+            {
+              "Name": 45,
+              "Amount": 1
+            }
+          ]
+        },
+        {
+          "Level": 3,
+          "Materials": [
+            {
+              "Name": 24,
+              "Amount": 10
+            },
+            {
+              "Name": 25,
+              "Amount": 1
+            },
+            {
+              "Name": 5,
+              "Amount": 1
+            }
+          ]
+        },
+        {
+          "Level": 4,
+          "Materials": [
+            {
+              "Name": 24,
+              "Amount": 10
+            },
+            {
+              "Name": 11,
+              "Amount": 3
+            },
+            {
+              "Name": 1,
+              "Amount": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Earth Wyrm's Claw",
+      "Type": "One-handed sword",
+      "Levels": [
+        {
+          "Level": 2,
+          "Materials": [
+            {
+              "Name": 24,
+              "Amount": 8
+            },
+            {
+              "Name": 38,
+              "Amount": 10
+            }
+          ]
+        },
+        {
+          "Level": 3,
+          "Materials": [
+            {
+              "Name": 24,
+              "Amount": 8
+            },
+            {
+              "Name": 12,
+              "Amount": 3
+            },
+            {
+              "Name": 9,
+              "Amount": 2
+            }
+          ]
+        },
+        {
+          "Level": 4,
+          "Materials": [
+            {
+              "Name": 24,
+              "Amount": 10
+            },
+            {
+              "Name": 12,
+              "Amount": 15
+            },
+            {
+              "Name": 1,
+              "Amount": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Blade of Treachery",
+      "Type": "One-handed sword",
+      "Levels": [
+        {
+          "Level": 2,
+          "Materials": [
+            {
+              "Name": 14,
+              "Amount": 10
+            },
+            {
+              "Name": 40,
+              "Amount": 1
+            }
+          ]
+        },
+        {
+          "Level": 3,
+          "Materials": [
+            {
+              "Name": 14,
+              "Amount": 15
+            },
+            {
+              "Name": 26,
+              "Amount": 2
+            },
+            {
+              "Name": 35,
+              "Amount": 1
+            }
+          ]
+        },
+        {
+          "Level": 4,
+          "Materials": [
+            {
+              "Name": 14,
+              "Amount": 20
+            },
+            {
+              "Name": 35,
+              "Amount": 1
+            },
+            {
+              "Name": 34,
+              "Amount": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Beastbain",
+      "Type": "One-handed sword",
+      "Levels": [
+        {
+          "Level": 2,
+          "Materials": [
+            {
+              "Name": 24,
+              "Amount": 12
+            },
+            {
+              "Name": 13,
+              "Amount": 1
+            }
+          ]
+        },
+        {
+          "Level": 3,
+          "Materials": [
+            {
+              "Name": 24,
+              "Amount": 20
+            },
+            {
+              "Name": 13,
+              "Amount": 1
+            },
+            {
+              "Name": 26,
+              "Amount": 1
+            }
+          ]
+        },
+        {
+          "Level": 4,
+          "Materials": [
+            {
+              "Name": 24,
+              "Amount": 15
+            },
+            {
+              "Name": 34,
+              "Amount": 2
+            },
+            {
+              "Name": 15,
+              "Amount": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Faith",
+      "Type": "One-handed sword",
+      "Levels": [
+        {
+          "Level": 2,
+          "Materials": [
+            {
+              "Name": 39,
+              "Amount": 3
+            },
+            {
+              "Name": 3,
+              "Amount": 30
+            }
+          ]
+        },
+        {
+          "Level": 3,
+          "Materials": [
+            {
+              "Name": 39,
+              "Amount": 5
+            },
+            {
+              "Name": 19,
+              "Amount": 1
+            },
+            {
+              "Name": 32,
+              "Amount": 1
+            }
+          ]
+        },
+        {
+          "Level": 4,
+          "Materials": [
+            {
+              "Name": 39,
+              "Amount": 4
+            },
+            {
+              "Name": 30,
+              "Amount": 1
+            },
+            {
+              "Name": 44,
+              "Amount": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Ancient Overlord",
+      "Type": "One-handed sword",
+      "Levels": [
+        {
+          "Level": 2,
+          "Materials": [
+            {
+              "Name": 39,
+              "Amount": 4
+            },
+            {
+              "Name": 8,
+              "Amount": 10
+            }
+          ]
+        },
+        {
+          "Level": 3,
+          "Materials": [
+            {
+              "Name": 39,
+              "Amount": 6
+            },
+            {
+              "Name": 11,
+              "Amount": 3
+            },
+            {
+              "Name": 15,
+              "Amount": 2
+            }
+          ]
+        },
+        {
+          "Level": 4,
+          "Materials": [
+            {
+              "Name": 39,
+              "Amount": 5
+            },
+            {
+              "Name": 30,
+              "Amount": 1
+            },
+            {
+              "Name": 26,
+              "Amount": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Phoenix Dageger",
+      "Type": "One-handed sword",
+      "Levels": [
+        {
+          "Level": 2,
+          "Materials": [
+            {
+              "Name": 39,
+              "Amount": 6
+            },
+            {
+              "Name": 22,
+              "Amount": 2
+            }
+          ]
+        },
+        {
+          "Level": 3,
+          "Materials": [
+            {
+              "Name": 39,
+              "Amount": 6
+            },
+            {
+              "Name": 18,
+              "Amount": 1
+            },
+            {
+              "Name": 6,
+              "Amount": 2
+            }
+          ]
+        },
+        {
+          "Level": 4,
+          "Materials": [
+            {
+              "Name": 39,
+              "Amount": 6
+            },
+            {
+              "Name": 2,
+              "Amount": 5
+            },
+            {
+              "Name": 1,
+              "Amount": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Labyrinth's whisper",
+      "Type": "One-handed sword",
+      "Levels": [
+        {
+          "Level": 2,
+          "Materials": [
+            {
+              "Name": 20,
+              "Amount": 1
+            }
+          ]
+        },
+        {
+          "Level": 3,
+          "Materials": [
+            {
+              "Name": 20,
+              "Amount": 2
+            }
+          ]
+        },
+        {
+          "Level": 4,
+          "Materials": [
+            {
+              "Name": 20,
+              "Amount": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Fool's Embrace",
+      "Type": "One-handed sword",
+      "Levels": [
+        {
+          "Level": 2,
+          "Materials": [
+            {
+              "Name": 16,
+              "Amount": 1
+            }
+          ]
+        },
+        {
+          "Level": 3,
+          "Materials": [
+            {
+              "Name": 16,
+              "Amount": 1
+            }
+          ]
+        },
+        {
+          "Level": 4,
+          "Materials": [
+            {
+              "Name": 16,
+              "Amount": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Iron Pipe",
+      "Type": "One-handed sword",
+      "Levels": [
+        {
+          "Level": 2,
+          "Materials": [
+            {
+              "Name": 17,
+              "Amount": 5
+            },
+            {
+              "Name": 4,
+              "Amount": 8
+            }
+          ]
+        },
+        {
+          "Level": 3,
+          "Materials": [
+            {
+              "Name": 17,
+              "Amount": 8
+            },
+            {
+              "Name": 4,
+              "Amount": 15
+            },
+            {
+              "Name": 36,
+              "Amount": 10
+            }
+          ]
+        },
+        {
+          "Level": 4,
+          "Materials": [
+            {
+              "Name": 17,
+              "Amount": 6
+            },
+            {
+              "Name": 4,
+              "Amount": 20
+            },
+            {
+              "Name": 35,
+              "Amount": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Kainé's Sword",
+      "Type": "One-handed sword",
+      "Levels": [
+        {
+          "Level": 2,
+          "Materials": [
+            {
+              "Name": 24,
+              "Amount": 10
+            }
+          ]
+        },
+        {
+          "Level": 3,
+          "Materials": [
+            {
+              "Name": 24,
+              "Amount": 20
+            },
+            {
+              "Name": 35,
+              "Amount": 1
+            }
+          ]
+        },
+        {
+          "Level": 4,
+          "Materials": [
+            {
+              "Name": 24,
+              "Amount": 30
+            },
+            {
+              "Name": 10,
+              "Amount": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Virtuous Contract (DLC)",
+      "Type": "One-handed sword",
+      "Levels": [
+        {
+          "Level": 2,
+          "Materials": [
+            {
+              "Name": 35,
+              "Amount": 1
+            },
+            {
+              "Name": 46,
+              "Amount": 1
+            },
+            {
+              "Name": 15,
+              "Amount": 2
+            }
+          ]
+        },
+        {
+          "Level": 3,
+          "Materials": [
+            {
+              "Name": 17,
+              "Amount": 3
+            },
+            {
+              "Name": 44,
+              "Amount": 1
+            },
+            {
+              "Name": 1,
+              "Amount": 2
+            }
+          ]
+        },
+        {
+          "Level": 4,
+          "Materials": [
+            {
+              "Name": 27,
+              "Amount": 2
+            },
+            {
+              "Name": 4,
+              "Amount": 1
+            },
+            {
+              "Name": 47,
+              "Amount": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Cruel Oath (DLC)",
+      "Type": "One-handed sword",
+      "Levels": [
+        {
+          "Level": 2,
+          "Materials": [
+            {
+              "Name": 35,
+              "Amount": 1
+            },
+            {
+              "Name": 46,
+              "Amount": 1
+            },
+            {
+              "Name": 15,
+              "Amount": 2
+            }
+          ]
+        },
+        {
+          "Level": 3,
+          "Materials": [
+            {
+              "Name": 24,
+              "Amount": 4
+            },
+            {
+              "Name": 39,
+              "Amount": 3
+            },
+            {
+              "Name": 1,
+              "Amount": 2
+            }
+          ]
+        },
+        {
+          "Level": 4,
+          "Materials": [
+            {
+              "Name": 23,
+              "Amount": 3
+            },
+            {
+              "Name": 25,
+              "Amount": 1
+            },
+            {
+              "Name": 30,
+              "Amount": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Kusanagi",
+      "Type": "Two-handed sword",
+      "Levels": [
+        {
+          "Level": 2,
+          "Materials": [
+            {
+              "Name": 24,
+              "Amount": 10
+            }
+          ]
+        },
+        {
+          "Level": 3,
+          "Materials": [
+            {
+              "Name": 24,
+              "Amount": 18
+            },
+            {
+              "Name": 5,
+              "Amount": 4
+            },
+            {
+              "Name": 21,
+              "Amount": 1
+            }
+          ]
+        },
+        {
+          "Level": 4,
+          "Materials": [
+            {
+              "Name": 24,
+              "Amount": 20
+            },
+            {
+              "Name": 6,
+              "Amount": 1
+            },
+            {
+              "Name": 30,
+              "Amount": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Axe of Beheading",
+      "Type": "Two-handed sword",
+      "Levels": [
+        {
+          "Level": 2,
+          "Materials": [
+            {
+              "Name": 14,
+              "Amount": 10
+            }
+          ]
+        },
+        {
+          "Level": 3,
+          "Materials": [
+            {
+              "Name": 14,
+              "Amount": 15
+            },
+            {
+              "Name": 37,
+              "Amount": 5
+            },
+            {
+              "Name": 43,
+              "Amount": 1
+            }
+          ]
+        },
+        {
+          "Level": 4,
+          "Materials": [
+            {
+              "Name": 14,
+              "Amount": 18
+            },
+            {
+              "Name": 41,
+              "Amount": 2
+            },
+            {
+              "Name": 30,
+              "Amount": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Fang of the Twins",
+      "Type": "Two-handed sword",
+      "Levels": [
+        {
+          "Level": 2,
+          "Materials": [
+            {
+              "Name": 39,
+              "Amount": 3
+            },
+            {
+              "Name": 19,
+              "Amount": 1
+            }
+          ]
+        },
+        {
+          "Level": 3,
+          "Materials": [
+            {
+              "Name": 39,
+              "Amount": 5
+            },
+            {
+              "Name": 11,
+              "Amount": 2
+            },
+            {
+              "Name": 41,
+              "Amount": 1
+            }
+          ]
+        },
+        {
+          "Level": 4,
+          "Materials": [
+            {
+              "Name": 14,
+              "Amount": 18
+            },
+            {
+              "Name": 41,
+              "Amount": 2
+            },
+            {
+              "Name": 29,
+              "Amount": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Vile axe",
+      "Type": "Two-handed sword",
+      "Levels": [
+        {
+          "Level": 2,
+          "Materials": [
+            {
+              "Name": 39,
+              "Amount": 4
+            },
+            {
+              "Name": 40,
+              "Amount": 1
+            }
+          ]
+        },
+        {
+          "Level": 3,
+          "Materials": [
+            {
+              "Name": 39,
+              "Amount": 8
+            },
+            {
+              "Name": 7,
+              "Amount": 2
+            },
+            {
+              "Name": 45,
+              "Amount": 1
+            }
+          ]
+        },
+        {
+          "Level": 4,
+          "Materials": [
+            {
+              "Name": 39,
+              "Amount": 12
+            },
+            {
+              "Name": 10,
+              "Amount": 2
+            },
+            {
+              "Name": 1,
+              "Amount": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Beastlord",
+      "Type": "Two-handed sword",
+      "Levels": [
+        {
+          "Level": 2,
+          "Materials": [
+            {
+              "Name": 23,
+              "Amount": 1
+            },
+            {
+              "Name": 13,
+              "Amount": 1
+            }
+          ]
+        },
+        {
+          "Level": 3,
+          "Materials": [
+            {
+              "Name": 23,
+              "Amount": 1
+            },
+            {
+              "Name": 13,
+              "Amount": 1
+            },
+            {
+              "Name": 26,
+              "Amount": 1
+            }
+          ]
+        },
+        {
+          "Level": 4,
+          "Materials": [
+            {
+              "Name": 23,
+              "Amount": 3
+            },
+            {
+              "Name": 1,
+              "Amount": 1
+            },
+            {
+              "Name": 40,
+              "Amount": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Iron Will",
+      "Type": "Two-handed sword",
+      "Levels": [
+        {
+          "Level": 2,
+          "Materials": [
+            {
+              "Name": 27,
+              "Amount": 1
+            }
+          ]
+        },
+        {
+          "Level": 3,
+          "Materials": [
+            {
+              "Name": 27,
+              "Amount": 2
+            },
+            {
+              "Name": 35,
+              "Amount": 2
+            },
+            {
+              "Name": 17,
+              "Amount": 1
+            }
+          ]
+        },
+        {
+          "Level": 4,
+          "Materials": [
+            {
+              "Name": 27,
+              "Amount": 3
+            },
+            {
+              "Name": 34,
+              "Amount": 1
+            },
+            {
+              "Name": 19,
+              "Amount": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Phoenix Sword",
+      "Type": "Two-handed sword",
+      "Levels": [
+        {
+          "Level": 2,
+          "Materials": [
+            {
+              "Name": 23,
+              "Amount": 2
+            },
+            {
+              "Name": 22,
+              "Amount": 2
+            }
+          ]
+        },
+        {
+          "Level": 3,
+          "Materials": [
+            {
+              "Name": 23,
+              "Amount": 3
+            },
+            {
+              "Name": 18,
+              "Amount": 2
+            },
+            {
+              "Name": 13,
+              "Amount": 1
+            }
+          ]
+        },
+        {
+          "Level": 4,
+          "Materials": [
+            {
+              "Name": 23,
+              "Amount": 4
+            },
+            {
+              "Name": 2,
+              "Amount": 5
+            },
+            {
+              "Name": 30,
+              "Amount": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Labyrinth's Song",
+      "Type": "Two-handed sword",
+      "Levels": [
+        {
+          "Level": 2,
+          "Materials": [
+            {
+              "Name": 20,
+              "Amount": 1
+            }
+          ]
+        },
+        {
+          "Level": 3,
+          "Materials": [
+            {
+              "Name": 20,
+              "Amount": 2
+            }
+          ]
+        },
+        {
+          "Level": 4,
+          "Materials": [
+            {
+              "Name": 20,
+              "Amount": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Fool's Lament",
+      "Type": "Two-handed sword",
+      "Levels": [
+        {
+          "Level": 2,
+          "Materials": [
+            {
+              "Name": 16,
+              "Amount": 1
+            }
+          ]
+        },
+        {
+          "Level": 3,
+          "Materials": [
+            {
+              "Name": 16,
+              "Amount": 1
+            }
+          ]
+        },
+        {
+          "Level": 4,
+          "Materials": [
+            {
+              "Name": 16,
+              "Amount": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Virtuous Treaty (DLC)",
+      "Type": "Two-handed sword",
+      "Levels": [
+        {
+          "Level": 2,
+          "Materials": [
+            {
+              "Name": 35,
+              "Amount": 1
+            },
+            {
+              "Name": 46,
+              "Amount": 1
+            },
+            {
+              "Name": 15,
+              "Amount": 2
+            }
+          ]
+        },
+        {
+          "Level": 3,
+          "Materials": [
+            {
+              "Name": 17,
+              "Amount": 3
+            },
+            {
+              "Name": 44,
+              "Amount": 3
+            },
+            {
+              "Name": 1,
+              "Amount": 2
+            }
+          ]
+        },
+        {
+          "Level": 4,
+          "Materials": [
+            {
+              "Name": 27,
+              "Amount": 2
+            },
+            {
+              "Name": 47,
+              "Amount": 1
+            },
+            {
+              "Name": 30,
+              "Amount": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Transience",
+      "Type": "Spear",
+      "Levels": [
+        {
+          "Level": 2,
+          "Materials": [
+            {
+              "Name": 24,
+              "Amount": 2
+            }
+          ]
+        },
+        {
+          "Level": 3,
+          "Materials": [
+            {
+              "Name": 24,
+              "Amount": 2
+            },
+            {
+              "Name": 45,
+              "Amount": 3
+            },
+            {
+              "Name": 28,
+              "Amount": 1
+            }
+          ]
+        },
+        {
+          "Level": 4,
+          "Materials": [
+            {
+              "Name": 24,
+              "Amount": 4
+            },
+            {
+              "Name": 15,
+              "Amount": 2
+            },
+            {
+              "Name": 34,
+              "Amount": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Spear of the Usurper",
+      "Type": "Spear",
+      "Levels": [
+        {
+          "Level": 2,
+          "Materials": [
+            {
+              "Name": 24,
+              "Amount": 1
+            }
+          ]
+        },
+        {
+          "Level": 3,
+          "Materials": [
+            {
+              "Name": 24,
+              "Amount": 2
+            },
+            {
+              "Name": 25,
+              "Amount": 2
+            },
+            {
+              "Name": 43,
+              "Amount": 1
+            }
+          ]
+        },
+        {
+          "Level": 4,
+          "Materials": [
+            {
+              "Name": 24,
+              "Amount": 5
+            },
+            {
+              "Name": 7,
+              "Amount": 2
+            },
+            {
+              "Name": 34,
+              "Amount": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "The Devil Queen",
+      "Type": "Spear",
+      "Levels": [
+        {
+          "Level": 2,
+          "Materials": [
+            {
+              "Name": 24,
+              "Amount": 5
+            },
+            {
+              "Name": 15,
+              "Amount": 3
+            }
+          ]
+        },
+        {
+          "Level": 3,
+          "Materials": [
+            {
+              "Name": 24,
+              "Amount": 10
+            },
+            {
+              "Name": 28,
+              "Amount": 2
+            },
+            {
+              "Name": 8,
+              "Amount": 1
+            }
+          ]
+        },
+        {
+          "Level": 4,
+          "Materials": [
+            {
+              "Name": 24,
+              "Amount": 13
+            },
+            {
+              "Name": 28,
+              "Amount": 1
+            },
+            {
+              "Name": 30,
+              "Amount": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Sunrise",
+      "Type": "Spear",
+      "Levels": [
+        {
+          "Level": 2,
+          "Materials": [
+            {
+              "Name": 39,
+              "Amount": 1
+            },
+            {
+              "Name": 25,
+              "Amount": 2
+            }
+          ]
+        },
+        {
+          "Level": 3,
+          "Materials": [
+            {
+              "Name": 39,
+              "Amount": 2
+            },
+            {
+              "Name": 37,
+              "Amount": 2
+            },
+            {
+              "Name": 21,
+              "Amount": 1
+            }
+          ]
+        },
+        {
+          "Level": 4,
+          "Materials": [
+            {
+              "Name": 39,
+              "Amount": 3
+            },
+            {
+              "Name": 43,
+              "Amount": 1
+            },
+            {
+              "Name": 34,
+              "Amount": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Beastcurse",
+      "Type": "Spear",
+      "Levels": [
+        {
+          "Level": 2,
+          "Materials": [
+            {
+              "Name": 39,
+              "Amount": 1
+            },
+            {
+              "Name": 13,
+              "Amount": 1
+            }
+          ]
+        },
+        {
+          "Level": 3,
+          "Materials": [
+            {
+              "Name": 39,
+              "Amount": 2
+            },
+            {
+              "Name": 13,
+              "Amount": 1
+            },
+            {
+              "Name": 26,
+              "Amount": 1
+            }
+          ]
+        },
+        {
+          "Level": 4,
+          "Materials": [
+            {
+              "Name": 39,
+              "Amount": 3
+            },
+            {
+              "Name": 30,
+              "Amount": 1
+            },
+            {
+              "Name": 19,
+              "Amount": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Captain's Holy Spear",
+      "Type": "Spear",
+      "Levels": [
+        {
+          "Level": 2,
+          "Materials": [
+            {
+              "Name": 39,
+              "Amount": 2
+            },
+            {
+              "Name": 11,
+              "Amount": 2
+            }
+          ]
+        },
+        {
+          "Level": 3,
+          "Materials": [
+            {
+              "Name": 39,
+              "Amount": 4
+            },
+            {
+              "Name": 31,
+              "Amount": 3
+            },
+            {
+              "Name": 6,
+              "Amount": 1
+            }
+          ]
+        },
+        {
+          "Level": 4,
+          "Materials": [
+            {
+              "Name": 39,
+              "Amount": 4
+            },
+            {
+              "Name": 30,
+              "Amount": 1
+            },
+            {
+              "Name": 13,
+              "Amount": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Dragoon Lance",
+      "Type": "Spear",
+      "Levels": [
+        {
+          "Level": 2,
+          "Materials": [
+            {
+              "Name": 39,
+              "Amount": 3
+            },
+            {
+              "Name": 34,
+              "Amount": 1
+            }
+          ]
+        },
+        {
+          "Level": 3,
+          "Materials": [
+            {
+              "Name": 39,
+              "Amount": 4
+            },
+            {
+              "Name": 34,
+              "Amount": 3
+            },
+            {
+              "Name": 33,
+              "Amount": 1
+            }
+          ]
+        },
+        {
+          "Level": 4,
+          "Materials": [
+            {
+              "Name": 39,
+              "Amount": 5
+            },
+            {
+              "Name": 29,
+              "Amount": 3
+            },
+            {
+              "Name": 40,
+              "Amount": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Phoenix Spear",
+      "Type": "Spear",
+      "Levels": [
+        {
+          "Level": 2,
+          "Materials": [
+            {
+              "Name": 23,
+              "Amount": 1
+            },
+            {
+              "Name": 22,
+              "Amount": 2
+            }
+          ]
+        },
+        {
+          "Level": 3,
+          "Materials": [
+            {
+              "Name": 23,
+              "Amount": 2
+            },
+            {
+              "Name": 18,
+              "Amount": 1
+            },
+            {
+              "Name": 11,
+              "Amount": 1
+            }
+          ]
+        },
+        {
+          "Level": 4,
+          "Materials": [
+            {
+              "Name": 23,
+              "Amount": 3
+            },
+            {
+              "Name": 2,
+              "Amount": 5
+            },
+            {
+              "Name": 30,
+              "Amount": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Labyrinth's Shout",
+      "Type": "Spear",
+      "Levels": [
+        {
+          "Level": 2,
+          "Materials": [
+            {
+              "Name": 20,
+              "Amount": 1
+            }
+          ]
+        },
+        {
+          "Level": 3,
+          "Materials": [
+            {
+              "Name": 20,
+              "Amount": 2
+            }
+          ]
+        },
+        {
+          "Level": 4,
+          "Materials": [
+            {
+              "Name": 20,
+              "Amount": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Fool's Accord",
+      "Type": "Spear",
+      "Levels": [
+        {
+          "Level": 2,
+          "Materials": [
+            {
+              "Name": 16,
+              "Amount": 1
+            }
+          ]
+        },
+        {
+          "Level": 3,
+          "Materials": [
+            {
+              "Name": 16,
+              "Amount": 1
+            }
+          ]
+        },
+        {
+          "Level": 4,
+          "Materials": [
+            {
+              "Name": 16,
+              "Amount": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Virtuous Dignity (DLC)",
+      "Type": "Spear",
+      "Levels": [
+        {
+          "Level": 2,
+          "Materials": [
+            {
+              "Name": 35,
+              "Amount": 1
+            },
+            {
+              "Name": 46,
+              "Amount": 1
+            },
+            {
+              "Name": 15,
+              "Amount": 2
+            }
+          ]
+        },
+        {
+          "Level": 3,
+          "Materials": [
+            {
+              "Name": 17,
+              "Amount": 3
+            },
+            {
+              "Name": 44,
+              "Amount": 1
+            },
+            {
+              "Name": 1,
+              "Amount": 2
+            }
+          ]
+        },
+        {
+          "Level": 4,
+          "Materials": [
+            {
+              "Name": 27,
+              "Amount": 2
+            },
+            {
+              "Name": 47,
+              "Amount": 5
+            },
+            {
+              "Name": 30,
+              "Amount": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
