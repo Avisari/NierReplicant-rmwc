@@ -1,0 +1,276 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, user-scalable=no">
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+
+    <style>
+        .card {
+            margin-bottom: 15px;
+        }
+
+        .card-body {
+            font-size: 0.8rem;
+        }
+
+        #GrandTotalDiv div {
+            border-bottom: 1px dotted #616161;
+        }
+
+        #GrandTotalDiv div:after {
+            content: attr(data-amount);
+            right: 1.25rem;
+            position: absolute;
+            text-align: right;
+        }
+    </style>
+
+    <script>
+        let GrandTotalMatMap = new Map();
+        let GlobalMatMap = new Map();
+        let jsonData;
+        let Mats;
+        let ChkSavestate = new Map();
+        $.getJSON("mats.json", function (data) {
+            Mats = data.Materials;
+        });
+
+        $.getJSON("weapons.json", function (data) {
+            $.each(data.Weapons, function (k, v1) {
+                tr = $('<tr></tr>');
+
+                tr.append(BuildTd(v1.Name));
+                tr.append(BuildTd(v1.Type));
+
+                let MatMap = new Map();
+
+                $.each(v1.Levels, function (k2, v2) {
+                    let chk = BuildChk(k, k2);
+
+                    $.each(v2.Materials, function (k3, v3) {
+                        v3.Name = Mats.find(k => k.ID == v3.Name).Name;
+                    });
+
+                    v2.Materials.sort((a, b) => a.Name.localeCompare(b.Name));
+                    td2 = BuildTd("");
+                    td2.attr('class', 'MatsTD').attr('id', 'MatsTD_' + k + '_' + k2);
+                    $.each(v2.Materials, function (k3, v3) {
+                        td2.append(BuildDiv(v3.Name, v3.Amount));
+                        if (!chk.is(':checked')) MatMap = AddToMap(MatMap, v3.Name, v3.Amount);
+                    });
+
+                    if (chk.is(':checked')) td2.toggleClass('LevelDone');
+                    //if (chk.is(':checked')) td2.attr('class', td2.attr('class') + ' LevelDone');
+
+                    td = BuildTd("");
+                    td.append(chk);
+                    tr.append(td);
+                    tr.append(td2);
+                });
+
+                GlobalMatMap = AddToGlobalMap(GlobalMatMap, v1.Name, MatMap);
+                td = BuildTd("");
+                td.attr('id', 'TotalMatsTD_' + k);
+                MatMap = new Map([...MatMap.entries()].sort());
+                MatMap.forEach(function (v, k) {
+                    td.append(BuildDiv(k, v));
+                });
+                tr.append(td);
+
+                switch (v1.Type) {
+                    case "One-handed sword":
+                        $('#one_handed_swords_table tbody').append(tr);
+                        break;
+                    case "Two-handed sword":
+                        $('#two_handed_swords_table tbody').append(tr);
+                        break;
+                    case "Spear":
+                        $('#spear_table tbody').append(tr);
+                        break;
+                }
+            });
+
+            GlobalMatMap.forEach(function (v, k) {
+                v.forEach(function (v2, k2) {
+                    GrandTotalMatMap = AddToMap(GrandTotalMatMap, k2, v2);
+                });
+            });
+            GrandTotalMatMap = new Map([...GrandTotalMatMap.entries()].sort());
+            GrandTotalMatMap.forEach(function (v, k) {
+                $('#GrandTotalDiv').append(BuildGrandTotalDiv(k, v));
+            });
+
+            jsonData = data.Weapons;
+        });
+
+
+        function AddToGlobalMap(m, n, v) {
+            m.set(n, v);
+            return m;
+        }
+        function AddToMap(m, n, v) {
+            if (m.has(n)) {
+                m.set(n, m.get(n) + v);
+            } else {
+                m.set(n, v);
+            }
+            return m;
+        }
+        function SubFromMap(m, n, v) {
+            if (m.has(n)) {
+                if (m.get(n) - v == 0) {
+                    m.delete(n);
+                } else {
+                    m.set(n, m.get(n) - v);
+                }
+            }
+            return m;
+        }
+        function BuildChk(k, k2) {
+            let id = 'chk_' + k + '_' + k2;
+            let = SavedState = GetFromLocalStorage(id);
+            let input = $('<input type="checkbox" />');
+            if (SavedState == 'true') input.attr('checked', SavedState)
+            return input.attr('id', id).click(function () {
+
+                let m = GlobalMatMap.get(jsonData[k].Name);
+                let m2 = GrandTotalMatMap;
+                if ($(this).is(':checked')) {
+                    $.each(jsonData[k].Levels[k2].Materials, function (k3, v3) {
+                        m = SubFromMap(m, v3.Name, v3.Amount);
+                        m2 = SubFromMap(m2, v3.Name, v3.Amount);
+                    });
+                } else if (!$(this).is(':checked')) {
+                    $.each(jsonData[k].Levels[k2].Materials, function (k3, v3) {
+                        m = AddToMap(m, v3.Name, v3.Amount);
+                        m2 = AddToMap(m2, v3.Name, v3.Amount);
+                    });
+                }
+
+                $('#MatsTD_' + k + '_' + k2).toggleClass('LevelDone');
+
+
+                SetLocalStorageValue($(this).attr('id'), $(this).is(':checked'));
+
+                $('#TotalMatsTD_' + k).html('');
+                m = new Map([...m.entries()].sort());
+                m.forEach(function (v4, k4) {
+                    $('#TotalMatsTD_' + k).append(BuildDiv(k4, v4));
+                });
+                $('#GrandTotalDiv').html('');
+                m2 = new Map([...m2.entries()].sort());
+                m2.forEach(function (v4, k4) {
+                    $('#GrandTotalDiv').append(BuildGrandTotalDiv(k4, v4));
+                });
+            });
+        }
+        function BuildTd(text) {
+            td = $('<td></td>').html(text);
+            return td;
+        }
+        function BuildDiv(n, v) {
+            div = $('<div data-name="' + n + '" data-amount="' + v + '"></div>').html(n + ' x' + v);
+            return div;
+        }
+        function BuildGrandTotalDiv(n, v) {
+            div = $('<div data-name="' + n + '" data-amount="' + v + '"></div>').html(n);
+            return div;
+        }
+        function SetLocalStorageValue(i, v) {
+            localStorage.setItem(i, v);
+        }
+        function GetFromLocalStorage(i) {
+            return localStorage.getItem(i);
+        }
+    </script>
+</head>
+<body class="dark">
+    <nav class="navbar sticky-top navbar-expand navbar-dark bg-dark">
+        <div class="navbar-brand">Nier Replicant weapon upgrade checklist</div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-10 offset-lg-1 col-sm-12">
+                <div class="row">
+                    <div class="col-xl-10 col-md-12">
+                        <div class="card" id="one-handed-swords-card">
+                            <a class="card-toggler-href collapsed" data-toggle="collapse" data-parent="#one-handed-swords-card" href="#one-handed-swords-body" aria-expanded="false" aria-controls="one-handed-swords-body">
+                                <div class="card-header">One-handed swords</div>
+                            </a>
+                            <div class="card-body collapse table-responsive" id="one-handed-swords-body">
+                                <table id="one_handed_swords_table" class="weapons_table table table-sm">
+                                    <thead>
+                                        <tr>
+                                            <th>Name</th>
+                                            <th>Type</th>
+                                            <th colspan="2">Level 2</th>
+                                            <th colspan="2">Level 3</th>
+                                            <th colspan="2">Level 4</th>
+                                            <th>Remaining</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="card" id="two-handed-swords-card">
+                            <a class="card-toggler-href collapsed" data-toggle="collapse" data-parent="#two-handed-swords-card" href="#two-handed-swords-body" aria-expanded="false" aria-controls="two-handed-swords-body">
+                                <div class="card-header">Two-handed swords</div>
+                            </a>
+                            <div class="card-body collapse table-responsive" id="two-handed-swords-body">
+                                <table id="two_handed_swords_table" class="weapons_table table table-sm">
+                                    <thead>
+                                        <tr>
+                                            <th>Name</th>
+                                            <th>Type</th>
+                                            <th colspan="2">Level 2</th>
+                                            <th colspan="2">Level 3</th>
+                                            <th colspan="2">Level 4</th>
+                                            <th>Remaining</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="card" id="spear-card">
+                            <a class="card-toggler-href collapsed" data-toggle="collapse" data-parent="#spear-card" href="#spear-body" aria-expanded="false" aria-controls="spear-body">
+                                <div class="card-header">Spears</div>
+                            </a>
+                            <div class="card-body collapse table-responsive" id="spear-body">
+                                <table id="spear_table" class="weapons_table table table-sm">
+                                    <thead>
+                                        <tr>
+                                            <th>Name</th>
+                                            <th>Type</th>
+                                            <th colspan="2">Level 2</th>
+                                            <th colspan="2">Level 3</th>
+                                            <th colspan="2">Level 4</th>
+                                            <th>Remaining</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-12">
+                        <div class="card">
+                            <div class="card-header">Grand total remaining</div>
+                            <div class="card-body" id="GrandTotalDiv"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
