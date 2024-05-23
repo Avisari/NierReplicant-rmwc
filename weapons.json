@@ -43,7 +43,7 @@
             },
             {
               "Name": 40,
-              "Amount": 2
+              "Amount": 1
             }
           ]
         }
@@ -213,7 +213,7 @@
           "Materials": [
             {
               "Name": 24,
-              "Amount": 10
+              "Amount": 4
             },
             {
               "Name": 45,
@@ -243,7 +243,7 @@
           "Materials": [
             {
               "Name": 24,
-              "Amount": 10
+              "Amount": 20
             },
             {
               "Name": 11,
@@ -515,7 +515,7 @@
               "Amount": 1
             },
             {
-              "Name": 26,
+              "Name": 27,
               "Amount": 2
             }
           ]
@@ -760,7 +760,7 @@
           "Level": 3,
           "Materials": [
             {
-              "Name": 17,
+              "Name": 48,
               "Amount": 3
             },
             {
@@ -781,12 +781,12 @@
               "Amount": 2
             },
             {
-              "Name": 4,
+              "Name": 30,
               "Amount": 1
             },
             {
               "Name": 47,
-              "Amount": 1
+              "Amount": 5
             }
           ]
         }
@@ -835,7 +835,7 @@
           "Materials": [
             {
               "Name": 23,
-              "Amount": 3
+              "Amount": 2
             },
             {
               "Name": 25,
@@ -920,7 +920,7 @@
             },
             {
               "Name": 37,
-              "Amount": 5
+              "Amount": 3
             },
             {
               "Name": 43,
@@ -940,7 +940,7 @@
               "Amount": 2
             },
             {
-              "Name": 30,
+              "Name": 29,
               "Amount": 1
             }
           ]
@@ -985,12 +985,12 @@
           "Level": 4,
           "Materials": [
             {
-              "Name": 14,
-              "Amount": 18
+              "Name": 39,
+              "Amount": 10
             },
             {
-              "Name": 41,
-              "Amount": 2
+              "Name": 31,
+              "Amount": 3
             },
             {
               "Name": 29,
@@ -1299,12 +1299,12 @@
           "Level": 3,
           "Materials": [
             {
-              "Name": 17,
+              "Name": 48,
               "Amount": 3
             },
             {
               "Name": 44,
-              "Amount": 3
+              "Amount": 1
             },
             {
               "Name": 1,
@@ -1321,7 +1321,7 @@
             },
             {
               "Name": 47,
-              "Amount": 1
+              "Amount": 5
             },
             {
               "Name": 30,
@@ -1688,7 +1688,7 @@
             },
             {
               "Name": 40,
-              "Amount": 3
+              "Amount": 1
             }
           ]
         }
@@ -1838,7 +1838,7 @@
           "Level": 3,
           "Materials": [
             {
-              "Name": 17,
+              "Name": 48,
               "Amount": 3
             },
             {

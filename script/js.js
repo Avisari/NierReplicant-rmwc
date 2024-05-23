@@ -25,6 +25,7 @@ $(document).ready(function () {
 
                 $.each(v1.Levels, function (k2, v2) {
                     let chk = BuildChk(k, k2);
+                    let chk_id = 'chk_' + k + '_' + k2;
 
                     $.each(v2.Materials, function (k3, v3) {
                         v3.Name = Mats.find(k => k.ID == v3.Name).Name;
@@ -34,7 +35,7 @@ $(document).ready(function () {
                     td2 = BuildTd("");
                     td2.attr('class', 'MatsTD').attr('id', 'MatsTD_' + k + '_' + k2);
                     $.each(v2.Materials, function (k3, v3) {
-                        td2.append(BuildDiv(v3.Name, v3.Amount));
+                        td2.append(BuildDiv(v3.Name, v3.Amount, chk_id));
                         if (!chk.is(':checked')) MatMap = AddToMap(MatMap, v3.Name, v3.Amount);
                     });
 
@@ -148,8 +149,8 @@ function BuildTd(text) {
     td = $('<td></td>').html(text);
     return td;
 }
-function BuildDiv(n, v) {
-    div = $('<div data-name="' + n + '" data-amount="' + v + '"></div>').html(n + ' x' + v);
+function BuildDiv(n, v, chk_id) {
+    div = $('<div data-name="' + n + '" data-amount="' + v + '"></div>').html('<label class="mb-0" for="'+chk_id+'">' + n + ' x' + v +'</label>');
     return div;
 }
 function BuildGrandTotalDiv(n, v) {
